@@ -34,17 +34,53 @@ body {
     .mainbod {
         transform: scale(1.1);
     }
+
 }
 
 img#equil {
     width: 15rem;
     border-radius: 10px;
+    position: relative;
 
 }
+
+img#equil:hover {
+    content: '';
+    background: rgb(red, green, blue 0.3);
+    background-size: 15rem;
+    cursor: pointer;
+}
+
+.hidden {
+    position: relative;
+}
+
+
+/* .hidden{position:relative; display: inline-block;}
+.hidden:hover:after{
+    content:'';
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: url('http://i.stack.imgur.com/P1ELC.png') center no-repeat;
+    background-size: 50px;
+} */
+
+
+
+
 
 h1 {
     font-size: 1.18rem;
     color: white;
+}
+
+h1:hover {
+    font-size: 1.18rem;
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 p.first {
@@ -87,4 +123,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
 }
