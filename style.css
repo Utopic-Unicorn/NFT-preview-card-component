@@ -32,7 +32,12 @@ body {
 
 @media screen and (min-width:375px) {
     .mainbod {
-        transform: scale(1.1);
+        transform: scale(1.24);
+    }
+    
+@media screen and (min-width:800px) {
+    .mainbod {
+        transform: scale(1.3);
     }
 
 }
